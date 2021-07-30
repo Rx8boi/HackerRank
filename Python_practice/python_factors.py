@@ -8,8 +8,8 @@ def print_factors(x, p):
        if x % i == 0:
          arr.append(i)
 
-    print(arr, p)
-    print(arr[p-1])
+  print(arr, p)
+  print(arr[p-1])
 
 num = 320
 p = 1
